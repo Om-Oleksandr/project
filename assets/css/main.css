@@ -1,0 +1,61 @@
+.main {
+    min-height: 100vh;
+    text-align: center;
+    font-family: "Montserrat Regular";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 80px;
+  }
+  
+  .main h2 {
+    color: #ed1c24;
+    font-size: 2.8rem;
+  }
+  
+  .main__picture img{
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .country__card {
+    max-width: 900px;
+    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .country__card h3 {
+    font-size: 1.9rem;
+  }
+  
+  .country__image img {
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .tags__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    row-gap: 20px;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+  }
+  
+  .tag__item {
+    padding: 0.4rem 1.1rem;
+    background-color: #eed7d8;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 70px;
+  }
+  
+  .tag__item span {
+    font-size: 16px;
+  }
+  
