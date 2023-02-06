@@ -1,0 +1,19 @@
+.header {
+    padding: 1rem;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .header a {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+  }
+  
+  .header a img {
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  

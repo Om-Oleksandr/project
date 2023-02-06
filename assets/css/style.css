@@ -1,0 +1,87 @@
+:root {
+    font-size: 1em;
+    color: var(--main-font-color);
+    --main-font-color: #221112;
+    --headers-font-size: 52px;
+    --plain-text-font-size: 20px;
+    --helping-font-color: #fff;
+  }
+  @font-face {
+    font-family: "Montserrat Regular";
+    src: url(./../fonts/Montserrat/Montserrat-Regular.ttf);
+  }
+  @font-face {
+    font-family: "Montserrat Bold";
+    src: url(./../fonts/Montserrat/Montserrat-Bold.ttf);
+  }
+  @font-face {
+    font-family: "Montserrat Black";
+    src: url(./../fonts/Montserrat/Montserrat-Black.ttf);
+  }
+  @font-face {
+    font-family: "Montserrat Alternates Bold";
+    src: url(./../fonts/Montserrat-Alternates/MontserratAlternates-Bold.ttf);
+  }
+  @font-face {
+    font-family: "Montserrat Alternates Black";
+    src: url(./../fonts/Montserrat-Alternates/MontserratAlternates-Black.ttf);
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-size: 2.3rem;
+    font-family: "Montserrat Alternates Bold";
+  }
+  h4 {
+    font-size: 1.3rem;
+  }
+  a {
+    text-decoration: none;
+  }
+  p {
+    font-family: "Montserrat Regular";
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 120px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .white__button {
+    background-color: #fff;
+    color: #ed1c24;
+  }
+  
+  .button {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+    padding: 0.8rem 1.7rem;
+    border-radius: 70px;
+    font-family: "Montserrat Black";
+  }
+  
+  .red__button {
+    display: inline-block;
+    background-color: #ed1c24;
+    color: var(--helping-font-color);
+  }
+  
