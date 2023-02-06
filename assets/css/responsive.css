@@ -1,0 +1,152 @@
+@media (min-width: 0px) {
+    .container {
+      padding: 0 10px;
+    }
+    .buy__form > * {
+      width: 100%;
+    }
+    .rights__reserved-container.container {
+      padding: 1rem 10px;
+    }
+    .footer__container.container {
+      padding: 0 10px 3rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    p {
+      font-size: 1rem;
+    }
+    .header {
+      padding: 20px 10px 0;
+      width: 65px;
+      height: 65px;
+    }
+    .wrapper {
+      row-gap: 70px;
+    }
+    .welcome__container {
+      justify-content: space-evenly;
+    }
+    .welcome__container::before {
+      background-image: url(./../mobile_imgs/background.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .welcome__container h1 {
+      font-size: 1.375rem;
+    }
+    .welcome__greetings {
+      row-gap: 5px;
+    }
+    .welcome__greetings p {
+      line-height: 1.4rem;
+    }
+    .white__button {
+      align-self: center;
+      transform: translate(0, 150%);
+    }
+    .main {
+      row-gap: 60px;
+    }
+    .main h2 {
+      font-size: 1.375rem;
+    }
+    .main__picture {
+      width: 120px;
+      height: 200px;
+    }
+    .country__card {
+      row-gap: 15px;
+    }
+    .tags__container {
+      row-gap: 10px;
+      -moz-column-gap: 10px;
+      column-gap: 10px;
+      font-size: 0.75rem;
+    }
+    .tag__item {
+      padding: 0.4rem 0.7rem;
+    }
+    .tag__item span {
+      font-size: 0.6rem;
+    }
+    .group__trip {
+      height: auto;
+      row-gap: 2rem;
+    }
+    .group__trip h2 {
+      font-size: 1.375rem;
+    }
+    .advantages__container {
+      flex-direction: column;
+      row-gap: 2rem;
+    }
+    .group__trip .red__button {
+      justify-self: center;
+      width: 100%;
+    }
+    .discount__offer::before {
+      background-image: url(./../mobile_imgs/discount_background.png);
+    }
+    .discount__offer {
+      height: auto;
+      min-height: 100vh;
+      padding: 330px 0 60px;
+    }
+    .discount__info {
+      line-height: 1.31rem;
+    }
+    .discount__price {
+      row-gap: 30px;
+    }
+    .steps__item {
+      flex-direction: column;
+      padding: 3rem 1.3rem;
+      -moz-column-gap: 0;
+      column-gap: 0;
+      row-gap: 25px;
+    }
+    .step__image {
+      flex: 0 0 80px;
+      width: 80px;
+    }
+    .how__it__works .red__button {
+      width: 100%;
+    }
+    .buy__certificate {
+      min-height: 100vh;
+    }
+    .buy__certificate-info {
+      width: 100%;
+    }
+    .buy__certificate-container {
+      flex-direction: column-reverse;
+    }
+    .footer {
+      margin-top: -70px;
+    }
+  }
+  @media (max-width: 768px) {
+    .buy__form {
+      flex-direction: column;
+      row-gap: 30px;
+    }
+    .container__half span {
+      font-size: 1.9rem;
+    }
+    .rights__reserved-container {
+      padding: 1rem 10px;
+      text-align: center;
+    }
+    .footer__container {
+      flex-wrap: wrap;
+      padding: 0 10px 3rem;
+      align-items: center;
+      row-gap: 30px;
+    }
+    .container__half {
+      text-align: center;
+    }
+  }
+  
