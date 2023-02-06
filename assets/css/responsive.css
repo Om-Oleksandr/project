@@ -29,7 +29,7 @@
       justify-content: space-evenly;
     }
     .welcome__container::before {
-      background-image: url(./../mobile_imgs/background.png);
+      background-image: url(./../images-mobile/background.png);
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -87,7 +87,7 @@
       width: 100%;
     }
     .discount__offer::before {
-      background-image: url(./../mobile_imgs/discount_background.png);
+      background-image: url(./../images-mobile/discount_background.png);
     }
     .discount__offer {
       height: auto;
