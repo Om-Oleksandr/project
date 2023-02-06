@@ -44,7 +44,6 @@
     }
     .white__button {
       align-self: center;
-      transform: translate(0, 100%);
     }
     .main {
       row-gap: 60px;
