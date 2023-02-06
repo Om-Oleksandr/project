@@ -1,0 +1,56 @@
+.buy__certificate {
+    background-color: #ED1C24;
+    padding: 3rem 0;
+    color: var(--helping-font-color);
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  
+  .buy__certificate p {
+    margin-top: 10px;
+    line-height: 1.6rem;
+  }
+  
+  .buy__certificate-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buy__certificate-info {
+    width: 50%;
+  }
+  
+  .buy__image img {
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .buy__form {
+    width: 100%;
+    display: flex;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+  }
+  
+  .buy__form > * {
+    padding: 0.9rem 1.3rem;
+    outline: none;
+    border: none;
+    border-radius: 70px;
+    font-size: inherit;
+  }
+  
+  .buy__form input[type="text"] {
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 1rem;
+  }
+  
+  
+  .buy__form input[type="submit"] {
+    outline: 2px solid #fff;
+    cursor: pointer;
+    border-radius: 70px;
+  }
+  
