@@ -1,0 +1,51 @@
+.footer {
+  background-color: #670508;
+  margin-top: -120px;
+  color: var(--helping-font-color);
+  padding: 4rem 0 0;
+}
+
+.footer__container {
+  display: flex;
+}
+
+.footer__container .container__half {
+  flex: 0 1 100%;
+  color: var(--helping-font-color);
+}
+
+.footer__container .container__half span {
+  color: var(--helping-font-color);
+}
+
+.footer__container .container__half:last-child {
+  text-align: center;
+}
+
+.container__half h2 {
+  font-size: 2.8rem;
+  font-family: "Montserrat Bold";
+}
+
+.container__half p {
+  margin-top: 20px;
+  font-size: 1.12rem;
+}
+
+.container__half span {
+  font-size: 2rem;
+  font-family: "Montserrat Bold";
+}
+
+.rights__reserved {
+  position: relative;
+}
+
+.rights__reserved::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  top: 0;
+  background-color: var(--helping-font-color);
+}
