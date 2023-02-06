@@ -107,10 +107,10 @@
       column-gap: 0;
       row-gap: 25px;
     }
-    .step__image {
+    /* .step__image {
       flex: 0 0 80px;
       width: 80px;
-    }
+    } */
     .how__it__works .red__button {
       width: 100%;
     }
