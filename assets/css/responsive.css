@@ -1,4 +1,4 @@
-@media (min-width: 0px) {
+/* @media (min-width: 0px) {
     .container {
       padding: 0 10px;
     }
@@ -11,9 +11,60 @@
     .footer__container.container {
       padding: 0 10px 3rem;
     }
+  } */
+
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 900px;
+    }
+    .buy__form > * {
+      width: 100%;
+    }
+   
   }
-  
-  @media (max-width: 576px) {
+
+  /* @media (min-width: 768px) {
+    .thanks__greetings h1 {
+      max-width: 100%;
+    }
+    .thanks__greetings span {
+      max-width: 70%;
+    }
+  } */
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+    .buy__form {
+      flex-direction: column;
+      row-gap: 30px;
+    }
+    .container__half span {
+      font-size: 1.9rem;
+    }
+    .rights__reserved-container {
+      padding: 1rem 10px;
+      text-align: center;
+    }
+    .footer__container {
+      flex-wrap: wrap;
+      padding: 0 10px 3rem;
+      align-items: center;
+      row-gap: 30px;
+    }
+    .container__half {
+      text-align: center;
+    }
+    .thanks__greetings h1 {
+      max-width: 100%;
+    }
+    .thanks__greetings span {
+      max-width: 70%;
+    }
+  }
+
+   @media (max-width: 576px) {
     p {
       font-size: 1rem;
     }
@@ -33,6 +84,7 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
+
     .welcome__container h1 {
       font-size: 1.375rem;
     }
@@ -45,6 +97,27 @@
     .white__button {
       align-self: center;
     }
+
+    .thanks__greetings{
+      row-gap: 20px;
+    }
+    .thanks::before {
+      background-image: url(./../thanks-page-images/welcome_background-mobile.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .thanks__greetings h1 {
+      max-width: 100%;
+      font-size: 2.5rem;
+    }
+    .thanks__greetings span {
+      max-width: 100%;
+    }
+
+    .thanks__button:after {
+      content: 'На головну сторінку';
+    }
+
     .main {
       row-gap: 60px;
     }
@@ -126,26 +199,6 @@
       margin-top: -70px;
     }
   }
-  @media (max-width: 768px) {
-    .buy__form {
-      flex-direction: column;
-      row-gap: 30px;
-    }
-    .container__half span {
-      font-size: 1.9rem;
-    }
-    .rights__reserved-container {
-      padding: 1rem 10px;
-      text-align: center;
-    }
-    .footer__container {
-      flex-wrap: wrap;
-      padding: 0 10px 3rem;
-      align-items: center;
-      row-gap: 30px;
-    }
-    .container__half {
-      text-align: center;
-    }
-  }
+
+  
   

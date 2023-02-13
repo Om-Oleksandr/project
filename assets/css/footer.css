@@ -49,3 +49,10 @@
   top: 0;
   background-color: var(--helping-font-color);
 }
+
+.footer__container.container {
+  padding: 0 10px 3rem;
+}
+.rights__reserved-container.container {
+  padding: 1rem 10px;
+}

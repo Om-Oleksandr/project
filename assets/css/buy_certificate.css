@@ -36,6 +36,7 @@
   
   .buy__form > * {
     padding: 0.9rem 1.3rem;
+    width: 25%;
     outline: none;
     border: none;
     border-radius: 70px;
